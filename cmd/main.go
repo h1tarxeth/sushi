@@ -27,7 +27,7 @@ func main() {
 	fmt.Println(" Host   ", ma+hostsystem()+rs)
 	fmt.Println(" Mem    ", ye+mem_info_MiB()+rs)
 	fmt.Println(" pkgs   ", rd+packages_info()+rs)
-	fmt.Println(" Uptime  ", gr+uptime()+rs)
+	fmt.Println(" Uptime ", gr+uptime()+rs)
 	fmt.Println(
 		"  " + gr + "  " + ye + "  " + bl + "  " + ma + "  " + cy + "  " + wh + "  " + bg + "  " + rs,
 	)

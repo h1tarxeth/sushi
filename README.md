@@ -3,7 +3,7 @@
 <h3>
   simple fetch written in go for linux
 </h3>
-![My Image](img/sushi.png)
+<img src="img/sushi.png" alt="sushi">
 
 # Installation
 

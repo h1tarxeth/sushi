@@ -86,7 +86,7 @@ func ip_info() string {
 	return strings.Trim(string(ip), "\n")
 }
 
-func kernal_info() string {
+func kernel_info() string {
 	file, _ := os.ReadFile("/proc/version")
 	line := strings.SplitN(string(file), " ", 4)
 	return line[2]

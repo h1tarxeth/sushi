@@ -23,7 +23,7 @@ func main() {
 	fmt.Println(cy + ascii + rs)
 	fmt.Print(" "+ye+user_info()+rs, "@", gr+hostname()+rs, "\n")
 	fmt.Println(" Os     ", cy+os_info()+rs)
-	fmt.Println(" Kernal ", bl+kernal_info()+rs)
+	fmt.Println(" Kernel ", bl+kernel_info()+rs)
 	fmt.Println(" Host   ", ma+hostsystem()+rs)
 	fmt.Println(" Mem    ", ye+mem_info_MiB()+rs)
 	fmt.Println(" pkgs   ", rd+packages_info()+rs)
